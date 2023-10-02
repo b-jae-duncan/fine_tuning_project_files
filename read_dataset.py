@@ -8,7 +8,7 @@ def get_file_data(file):
   return data
 
 
-json_data = get_file_data(f'./dataset/apk_features_dataset.json')
+json_data = get_file_data(f'./apk_features_concat.json')
 
 print(json_data[0])
 

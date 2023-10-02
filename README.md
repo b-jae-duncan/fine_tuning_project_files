@@ -28,5 +28,5 @@ The following is a list of the files created/generated for the above mentioned d
 - `fine_tuning_script.ipynb`: script used for prompt formatting and fine-tuning using Llama 2 and QLoRA
 
 - `dataset/batch-*.json`: Extracted features datasets for all APKs in batches (github does not allow upload of files over 100MB)
-
+- `concat_dataset.py`: concatenate all files inside `dataset` directory. New file created will be `apk_features_concat.json`
 - `read_dataset.py`: use this script to preview the dataset and its features
